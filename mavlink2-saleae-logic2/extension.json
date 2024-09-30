@@ -1,0 +1,13 @@
+{
+  "name": "MAVLink2",
+  "apiVersion": "1.0.0",
+  "author": "Luca Pescante",
+  "version": "0.0.1",
+  "description": "decode MavLink2 protocol",
+  "extensions": {
+    "MavLink2": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "MAVLink2Analyzer.MAVLink2"
+    }
+  }
+}
