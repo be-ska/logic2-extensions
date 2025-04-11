@@ -1,0 +1,13 @@
+{
+  "name": "PCU_P2",
+  "apiVersion": "1.0.0",
+  "author": "Luca Pescante",
+  "version": "0.0.1",
+  "description": "decode Align PCU P2 protocol",
+  "extensions": {
+    "PCU P2": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "P2_analyzer.P2"
+    }
+  }
+}
